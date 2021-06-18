@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Stylesheet link -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google font link -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
+<body>
+
+  <!-- grid inside card -->
+  <!-- STEP I: Making a card -->
+  <div class="card">
+    <div class="card-body">
+
+      <!-- Card title -->
+      <h5 class="card-title joinh5">Join our community</h5>
+
+      <br>
+      <!-- Card subtitle -->
+      <h6 class="mainh6 card-subtitle mb-2">30-day, hassle-free money back guarantee</h6>
+
+      <p class="card-text para1">Gain access to our full library of tutorials along with expert code reviews.</p>
+      <p class="card-text">Perfect for any developers who are serious about honing their skills.</p>
+
+      <br>
+
+      <!-- STEP II: Making an underlying grid -->
+      <div class="container-fluid">
+        <div class="row rowOfBoxes">
+
+          <!-- BOX 1 -->
+          <div class="col box1">
+            <ul style="list-style-type:none;">
+              <li>
+                <h6 class="monthsub">Monthly Subscription</h6>
+              </li>
+              <br>
+              <li><span class="dollar">&dollar;29</span><span class="permonthSpan">per month</span></li>
+              <li>Full access for less than &dollar;1 a day</li>
+            </ul>
+            <!-- CTA Button -->
+            <a href="https://wpforms.com/demo/user-registration-form-demo/" class="card-link btn btn-primary btn-lg">Sign Up</a></a>
+          </div>
+
+          <!-- BOX 2 -->
+          <div class="col box2">
+            <!-- Unordered List without Bullets -->
+            <ul style="list-style-type:none;">
+              <li>
+                <h6 class="whyus">Why Us</h6>
+              </li>
+              <br>
+              <li>Tutorials by industry experts</li>
+              </li>Peer &amp; expert code review</li>
+              <li>Coding exercises</li>
+              <li>Access to our GitHub repos</li>
+              <li>Community forum</li>
+              <li>Flashcard decks</li>
+              <li>New videos every week</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <br>
+  <br>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/srishtiraut1102000">Srishti Raut</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
